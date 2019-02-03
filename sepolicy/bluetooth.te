@@ -1,0 +1,89 @@
+#============= bluetooth ==============
+allow bluetooth adbsecure_prop:file read;
+allow bluetooth adbtcp_prop:file read;
+allow bluetooth boot_mode_prop:file read;
+allow bluetooth device_logging_prop:file read;
+allow bluetooth logpersistd_logging_prop:file read;
+allow bluetooth media_msm8956_version_prop:file read;
+allow bluetooth media_msm8956hw_prop:file read;
+allow bluetooth mmc_prop:file read;
+allow bluetooth mpdecision_prop:file read;
+allow bluetooth recovery_prop:file read;
+allow bluetooth safemode_prop:file read;
+allow bluetooth spcomlib_prop:file read;
+allow bluetooth sys_usb_configfs_prop:file read;
+allow bluetooth sys_usb_controller_prop:file read;
+allow bluetooth sys_usb_tethering_prop:file read;
+allow bluetooth userinit_prop:file read;
+
+#============= installd ==============
+allow installd dex2oat:process noatsecure;
+
+#============= perfd ==============
+#allow perfd self:capability sys_ptrace;
+
+#============= platform_app ==============
+allow platform_app adbsecure_prop:file read;
+allow platform_app adbtcp_prop:file read;
+allow platform_app boot_mode_prop:file read;
+allow platform_app device_logging_prop:file read;
+allow platform_app logpersistd_logging_prop:file read;
+allow platform_app media_msm8956_version_prop:file read;
+allow platform_app media_msm8956hw_prop:file read;
+allow platform_app mmc_prop:file read;
+allow platform_app mpdecision_prop:file read;
+allow platform_app recovery_prop:file read;
+allow platform_app safemode_prop:file read;
+allow platform_app spcomlib_prop:file read;
+allow platform_app sys_usb_configfs_prop:file read;
+allow platform_app sys_usb_controller_prop:file read;
+allow platform_app sys_usb_tethering_prop:file read;
+allow platform_app userinit_prop:file read;
+
+#============= priv_app ==============
+allow priv_app adbsecure_prop:file read;
+allow priv_app adbtcp_prop:file read;
+allow priv_app boot_mode_prop:file read;
+allow priv_app device:dir read;
+allow priv_app device_logging_prop:file read;
+allow priv_app logpersistd_logging_prop:file read;
+allow priv_app media_msm8956_version_prop:file read;
+allow priv_app media_msm8956hw_prop:file read;
+allow priv_app mmc_prop:file read;
+allow priv_app mpdecision_prop:file read;
+allow priv_app recovery_prop:file read;
+allow priv_app safemode_prop:file read;
+allow priv_app spcomlib_prop:file read;
+allow priv_app sys_usb_configfs_prop:file read;
+allow priv_app sys_usb_controller_prop:file read;
+allow priv_app sys_usb_tethering_prop:file read;
+allow priv_app userinit_prop:file read;
+
+#============= qti_init_shell ==============
+#allow qti_init_shell default_prop:property_service set;
+
+#============= radio ==============
+allow radio adbsecure_prop:file read;
+allow radio adbtcp_prop:file read;
+allow radio media_msm8956_version_prop:file read;
+allow radio media_msm8956hw_prop:file read;
+allow radio recovery_prop:file read;
+allow radio userinit_prop:file read;
+
+#============= system_app ==============
+allow system_app adbtcp_prop:file read;
+allow system_app boot_mode_prop:file read;
+allow system_app device_logging_prop:file read;
+allow system_app media_msm8956_version_prop:file read;
+allow system_app media_msm8956hw_prop:file read;
+allow system_app mmc_prop:file read;
+allow system_app mpdecision_prop:file read;
+allow system_app recovery_prop:file read;
+allow system_app safemode_prop:file read;
+allow system_app spcomlib_prop:file read;
+allow system_app sys_usb_configfs_prop:file read;
+allow system_app sys_usb_controller_prop:file read;
+allow system_app sys_usb_tethering_prop:file read;
+allow system_app userinit_prop:file read;
+
+

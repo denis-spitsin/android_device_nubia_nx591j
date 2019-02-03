@@ -24,4 +24,4 @@ export VENDOR=nubia
 
 export DEVICE_BRINGUP_YEAR=2018
 
-./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
+./setup-makefiles-common.sh $@

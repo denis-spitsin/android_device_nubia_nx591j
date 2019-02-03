@@ -1,6 +1,11 @@
 [
   {
-    "repository": "android_device_nubia_msm8976-common",
-    "target_path": "device/nubia/msm8976-common"
+    "repository": "android_kernel_nubia_nx591j",
+    "target_path": "kernel/nubia/nx591j"
+  },
+  {
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common"
   }
 ]
+

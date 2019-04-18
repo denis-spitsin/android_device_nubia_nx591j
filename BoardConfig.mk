@@ -243,8 +243,5 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 56428567552
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/class/input/input2/wake_gesture"
 
-# Sepolicy
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
-
 # inherit from the proprietary version
 #-include vendor/nubia/nx591j/BoardConfigVendor.mk
